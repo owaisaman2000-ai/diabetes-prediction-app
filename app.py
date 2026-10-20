@@ -98,11 +98,11 @@ if st.button("Predict"):
     scaled_input = scaler.transform(input_data)
 
     # Generate prediction and probability
-    prediction = model.predict(scaled_input)[0]
+     prediction = model.predict(scaled_input)[0]
 
-st.subheader("Prediction Result")
+    st.subheader("Prediction Result")
 
-if prediction == 1:
-    st.error("Yes — the model predicts diabetes.")
-else:
-    st.success("No — the model does not predict diabetes.")
+    if prediction == 1:
+        st.error("Yes — the model predicts diabetes.")
+    else:
+        st.success("No — the model does not predict diabetes.")
