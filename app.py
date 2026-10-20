@@ -97,8 +97,8 @@ if st.button("Predict"):
     # Apply the same scaling used during training
     scaled_input = scaler.transform(input_data)
 
-    # Generate prediction and probability
-     prediction = model.predict(scaled_input)[0]
+    # Generate prediction
+    prediction = model.predict(scaled_input)[0]
 
     st.subheader("Prediction Result")
 
