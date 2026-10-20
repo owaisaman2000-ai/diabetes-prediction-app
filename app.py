@@ -99,19 +99,10 @@ if st.button("Predict"):
 
     # Generate prediction and probability
     prediction = model.predict(scaled_input)[0]
-    probability = model.predict_proba(scaled_input)[0][1]
 
-    st.subheader("Prediction Result")
+st.subheader("Prediction Result")
 
-    if prediction == 1:
-        st.warning("The model predicts a higher likelihood of diabetes.")
-    else:
-        st.success("The model predicts a lower likelihood of diabetes.")
-
-    st.write(f"Model-estimated probability: **{probability:.1%}**")
-
-    st.caption(
-        "This tool is for educational purposes only. "
-        "It is not a medical diagnosis. Consult a qualified "
-        "healthcare professional for medical advice."
-    )
+if prediction == 1:
+    st.error("Yes — the model predicts diabetes.")
+else:
+    st.success("No — the model does not predict diabetes.")
