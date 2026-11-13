@@ -66,3 +66,13 @@ Add the actual evaluation scores from your notebook here.
 
 ## Disclaimer
 This project is for educational purposes only. Its predictions are not a medical diagnosis and should not be used as a substitute for professional medical advice.
+## Application Screenshots
+
+### 1. Diabetes Prediction System – Home Page
+![Diabetes Home](diabetes-home.png)
+
+### 2. Negative Prediction Result
+![Negative Prediction](negative-prediction.png)
+
+### 3. Positive Prediction Result
+![Positive Prediction](positive-prediction.png)
