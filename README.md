@@ -1,13 +1,12 @@
 
 # Diabetes Prediction Using Logistic Regression
+## 🚀 Live Demo
 
+[Click here to use the Diabetes Prediction System](https://diabetes-prediction-owais.streamlit.app/)
 ## Project Overview
 This project uses a Logistic Regression machine learning model to predict whether a person is likely to have diabetes based on medical measurements.
 
 The model is deployed as an interactive web application using Streamlit.
-
-## Live Application
-[Click here to open the Diabetes Prediction App](https://diabetes-prediction-app-5blmyyjcdaasxqvudlcxqz.streamlit.app/)
 
 ## Dataset
 The project uses a diabetes dataset containing the following features:
